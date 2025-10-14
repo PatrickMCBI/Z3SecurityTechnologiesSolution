@@ -25,10 +25,6 @@ header {
     outline: none;
 }
 
-.logo:hover {
-    transform: translateY(-2px);
-}
-
 .logo-img {
     height: 50px;
     width: 50px;
@@ -39,7 +35,7 @@ header {
 }
 
 .logo-text {
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: var(--primary);
     font-weight: 800;
     letter-spacing: -0.5px;
@@ -242,7 +238,7 @@ nav ul li a.active::before {
 }
 
 .mobile-nav-logo-text {
-    font-size: 1.4rem;
+    font-size: 0.5rem;
     color: var(--primary);
     font-weight: 800;
     font-family: var(--font-heading);
